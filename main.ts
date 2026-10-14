@@ -4,7 +4,7 @@ namespace SpriteKind {
 controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
     if (!(playing)) {
         playing = true
-        info.startCountdown(49)
+        info.startCountdown(28)
     }
 })
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
